@@ -1,0 +1,18 @@
+.nav-hamburger{
+  display: flex;
+  width: 80%;
+  height: 80vh;
+  background-color: black;
+}
+
+.nav-hamburger .container{
+  width: 100%;
+  margin-top: 1rem;
+  border-top: 1px solid #d7dce2;
+}
+
+.list-hamburger{
+  border-bottom: 1px solid #d7dce2;
+  padding: 1rem;
+  width: 100%;
+}

@@ -1,0 +1,7 @@
+.fi{
+  cursor: pointer;
+}
+
+.fi-rr-menu-burger, .fi-rr-shopping-cart-add, .fi-rr-user{
+  color: #ffffff;
+}

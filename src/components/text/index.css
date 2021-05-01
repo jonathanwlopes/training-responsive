@@ -1,0 +1,17 @@
+.text-small{
+  font-size: 1.2rem;
+}
+
+.text-login{
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.text-link{
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #565b64;
+  cursor: pointer;
+}
