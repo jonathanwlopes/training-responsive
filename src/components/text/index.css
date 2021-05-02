@@ -15,3 +15,7 @@
   color: #565b64;
   cursor: pointer;
 }
+
+.text-link:hover{
+  color: #e78b90;
+}

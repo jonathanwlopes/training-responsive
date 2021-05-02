@@ -19,7 +19,6 @@
     <!-- End Reset and Global -->
 
     <!-- Header -->
-    <link rel="stylesheet" href="../../components/header/index.css" />
     <link
       rel="stylesheet"
       href="../../components/header/header-top/index.css"
@@ -45,12 +44,13 @@
   </head>
   <body>
     <main id="root">
+
       <header id="header">
-        <div class="box-top-header">
+        <!-- <div class="box-top-header">
           <span class="text-small">Welcome to our store!</span>
           <a href="#" class="text-login">Login or Register</a>
-        </div>
-
+        </div> -->
+<!-- 
         <div class="box-top-header-responsive">
           <i class="fi fi-rr-menu-burger"></i>
 
@@ -60,19 +60,28 @@
           </div>
 
           <i class="fi fi-rr-user"></i>
-        </div>
+        </div> -->
 
-        <div class="nav-hamburger">
+        <div class="nav-hamburger on">
           <nav class="container">
             <ul>
-              <li class="list-hamburger"><a href="#" class="text-link">Home</a></li>
-              <li class="list-hamburger"><a href="#" class="text-link">Products</a></li>
-              <li class="list-hamburger"><a href="#" class="text-link">Contact</a></li>
-              <li class="list-hamburger"><a href="#" class="text-link">Profile</a></li>
+              <li class="list-hamburger">
+                <a href="#" class="text-link">Home</a>
+              </li>
+              <li class="list-hamburger">
+                <a href="#" class="text-link">Products</a>
+              </li>
+              <li class="list-hamburger">
+                <a href="#" class="text-link">Contact</a>
+              </li>
+              <li class="list-hamburger">
+                <a href="#" class="text-link">Profile</a>
+              </li>
             </ul>
           </nav>
         </div>
       </header>
     </main>
+    <script type="module" src="../../index.js"></script>
   </body>
 </html>
