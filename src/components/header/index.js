@@ -5,6 +5,23 @@ const Header = {
   build: (props) => {
     const $root = document.querySelector("#root");
 
+    
+
+    const ul = Element({
+      typeElement: 'ul'
+    })
+
+    const _nav = Element({
+      typeElement: 'nav',
+      classList: ['container']
+    })
+
+    const _navBurger = Element({
+      typeElement: 'div',
+      classList: ['nav-hamburger'],
+      children: [_nav]
+    })
+
     const _profileIcon = Element({
       typeElement: "i",
       classList: ["fi", "fi-rr-user"],
@@ -51,7 +68,7 @@ const Header = {
     const _header = Element({
       typeElement: "header",
       attribute: ["id", "header"],
-      children: [_topHeader, _topHeaderResponsive],
+      children: [_topHeader, _topHeaderResponsive, _navBurger],
     });
 
     $root.appendChild(_header);
