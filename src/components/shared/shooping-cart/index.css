@@ -1,0 +1,8 @@
+.wrapper-shooping-cart {
+  display: flex;
+  align-items: center;
+}
+
+.wrapper-shooping-cart .fi-rr-shopping-cart-add {
+  margin-right: 1rem;
+}

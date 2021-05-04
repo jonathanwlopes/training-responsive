@@ -1,6 +1,7 @@
 import Element from "../createElement/index.js";
 
 const printText = (text) => {
+  
   const newText = Element({
     typeElement: "span",
     classList: ["text-small"],

@@ -1,26 +1,25 @@
-.nav-hamburger{
+.nav-hamburger {
   display: none;
   width: 100%;
   height: 80vh;
   background-color: #f8f8f8;
+
 }
 
-.nav-hamburger .container{
+.nav-hamburger .container {
   width: 100%;
   margin-top: 5rem;
   border-top: 1px solid #d7dce2;
 }
 
-.list-hamburger{
+.list-hamburger {
   border-bottom: 1px solid #d7dce2;
   padding: 1rem;
   width: 100%;
 }
 
-
-
-@media (max-width: 1020px){
-  .nav-hamburger.on{
+@media (max-width: 1020px) {
+  .nav-hamburger.on {
     display: flex;
   }
 }

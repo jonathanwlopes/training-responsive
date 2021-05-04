@@ -1,0 +1,47 @@
+.box-header-middle {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 100px;
+  background-color: #fafafa;
+}
+
+.nav-middle {
+  width: 40%;
+}
+
+.nav-middle ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-header-middle .text-small {
+  color: #6f787f;
+}
+.box-header-middle .fi-rr-shopping-cart-add {
+  color: #dd4e4d;
+  margin-left: 2rem;
+}
+
+.box-header-middle .input-search {
+  display: none;
+}
+
+@media (max-width: 1020px) {
+  .nav-middle {
+    display: none;
+  }
+
+  .box-header-middle .wrapper-shooping-cart {
+    display: none;
+  }
+
+  .box-header-middle {
+    flex-direction: column;
+  }
+
+  .box-header-middle .input-search {
+    display: inline;
+  }
+}

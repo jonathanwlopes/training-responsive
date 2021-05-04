@@ -22,15 +22,6 @@
   background-color: #da3b44;
 }
 
-.wrapper-shooping-cart {
-  display: flex;
-  align-items: center;
-}
-
-.wrapper-shooping-cart .fi-rr-shopping-cart-add {
-  margin-right: 1rem;
-}
-
 @media (max-width: 1020px) {
   .box-top-header {
     display: none;

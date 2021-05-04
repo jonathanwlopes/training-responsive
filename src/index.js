@@ -1,3 +1,6 @@
 import Header from "./components/header/index.js";
+import printElements from "./modules/printElements/index.js";
 
-Header.build();
+printElements({
+  elements: [Header]
+})
